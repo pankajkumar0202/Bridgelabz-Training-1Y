@@ -6,7 +6,7 @@ public class Cylinder{
          Scanner sc = new Scanner(System.in);
          double r = sc.nextDouble();
 		 double height = sc.nextDouble();
-		 double volume = 3.141 * r * 2 * height;
+		 double volume = 3.141 * r * r * height;
          System.out.println(volume);
          sc.close();
         }
