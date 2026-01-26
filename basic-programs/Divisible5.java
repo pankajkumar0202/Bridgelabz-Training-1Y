@@ -8,6 +8,5 @@ public class Divisible5{
 		}else{
 			System.out.println(" Is the number " +number+ " divisible by 5? " + "false");
 		}
-			
 	}
 }
