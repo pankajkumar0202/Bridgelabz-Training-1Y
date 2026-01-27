@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Factors2{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+        int number = sc.nextInt();
+        if (number > 0){
+		int  i = 1;
+            while(number>=i){
+                if (number % i == 0){
+                    System.out.println("factor of " +number+ " is " +i);
+	             }
+                i++;
+            }
+        }
+        sc.close();
+    }
+}
