@@ -29,7 +29,7 @@ class BankAccount {
 }
 public class Main {
     public static void main(String[] args) {
-        BankAccount acc = new BankAccount("Ishant", 12345, 5000);
+        BankAccount acc = new BankAccount("Pankaj", 12345, 5000);
         acc.displayBalance();
         acc.deposit(2000);
         acc.displayBalance();
