@@ -1,4 +1,4 @@
-package com.gla.classes_objects.level1;
+package com.gla.classes-objects.level1;
 
 class Employee {
 
