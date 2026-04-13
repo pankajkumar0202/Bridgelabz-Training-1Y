@@ -1,6 +1,6 @@
 package com.gla.generics-collections;
 
-class GenericBox {
+class Box<T> {
     private T value;
 
     void set(T value) {
